@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!-- Trees -->
+ <project path="device/xiaomi/beryllium" name="Xeesan/device_xiaomi_beryllium_R.git" remote="github" revision="ten" />
+ <project path="device/xiaomi/sdm845-common" name="Xeesan/device_xiaomi_sdm845-common_R.git" remote="github" revision="rr" />
+ <project path="vendor/xiaomi" name="Xeesan/android_vendor_xiaomi.git" remote="github" revision="10" />
+ <project path="kernel/xiaomi/sdm845" name="Xeesan/kernel_xiaomi_sdm845.git" remote="github" revision="backup" />
+ 
+</manifest>
