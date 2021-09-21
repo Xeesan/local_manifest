@@ -5,7 +5,7 @@
  <project path="device/xiaomi/beryllium" name="Xeesan/device_xiaomi_beryllium_R.git" remote="github" revision="ten" />
  <project path="device/xiaomi/sdm845-common" name="Xeesan/device_xiaomi_sdm845-common_R.git" remote="github" revision="rr" />
  <project path="vendor/xiaomi" name="Xeesan/vendor_xiaomi.git" remote="github" revision="ten" />
- <project path="kernel/xiaomi/sdm845" name="Xeesan/kernel_mi_sdm845.git" remote="github" revision="master" />
+ <project path="kernel/xiaomi/sdm845" name="Xeesan/kernel_xiaomi_sdm845_cr.git" remote="github" revision="ten" />
  <project path="hardware/xiaomi" name="Xeesan/android_hardware_xiaomi.git" remote="github" revision="lineage-17.1" />
  
 </manifest>
