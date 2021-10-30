@@ -2,15 +2,15 @@
 <manifest>
 
  <!-- Trees -->
- <project path="device/xiaomi/beryllium" name="Xeesan/device_xiaomi_beryllium.git" remote="github" revision="eleven" />
- <project path="device/xiaomi/sdm845-common" name="Xeesan/device_xiaomi_sdm845-common.git" remote="github" revision="11" />
- <project path="vendor/xiaomi" name="Xeesan/vendor_xiaomi.git" remote="github" revision="eleven" />
- <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi.git" remote="github" revision="lineage-18.1" />
- <project path="hardware/qcom-caf/sdm845/display" name="syberia-project/platform_hardware_qcom_display.git" remote="github" revision="11.0-caf-sdm845" />
- <project path="hardware/qcom-caf/sdm845/audio" name="syberia-project/platform_hardware_qcom_audio.git" remote="github" revision="11.0-caf-sdm845" />
- <project path="hardware/qcom-caf/sdm845/media" name="syberia-project/platform_hardware_qcom_media.git" remote="github" revision="11.0-caf-sdm845" />
- <project path="kernel/xiaomi/sdm845" name="DevMashru/android_kernel_xiaomi_sdm845.git" remote="github" revision="eleven" />
+ <project path="device/xiaomi/beryllium" name="Xeesan/device_xiaomi_beryllium" remote="github" revision="eleven" />
+ <project path="device/xiaomi/sdm845-common" name="Xeesan/device_xiaomi_sdm845-common" remote="github" revision="11" />
+ <project path="vendor/xiaomi" name="Xeesan/vendor_xiaomi" remote="github" revision="eleven" />
+ <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-18.1" />
+ <project path="hardware/qcom-caf/sdm845/display" name="syberia-project/platform_hardware_qcom_display" remote="github" revision="11.0-caf-sdm845" />
+ <project path="hardware/qcom-caf/sdm845/audio" name="syberia-project/platform_hardware_qcom_audio" remote="github" revision="11.0-caf-sdm845" />
+ <project path="hardware/qcom-caf/sdm845/media" name="syberia-project/platform_hardware_qcom_media" remote="github" revision="11.0-caf-sdm845" />
+ <project path="kernel/xiaomi/sdm845" name="DevMashru/android_kernel_xiaomi_sdm845" remote="github" revision="eleven" />
  <remove-project name="build/make" />
- <project path="build/make" name="Xeesan/platform_build.git" remote="github" revision="11.0" />
+ <project path="build/make" name="Xeesan/platform_build" remote="github" revision="11.0" />
  
 </manifest>
