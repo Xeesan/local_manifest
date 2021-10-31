@@ -10,7 +10,19 @@
  <project path="hardware/qcom-caf/sdm845/audio" name="syberia-project/platform_hardware_qcom_audio" remote="github" revision="11.0-caf-sdm845" />
  <project path="hardware/qcom-caf/sdm845/media" name="syberia-project/platform_hardware_qcom_media" remote="github" revision="11.0-caf-sdm845" />
  <project path="kernel/xiaomi/sdm845" name="DevMashru/android_kernel_xiaomi_sdm845" remote="github" revision="eleven" />
- <remove-project name="platform/build" />
- <project path="build" name="Xeesan/platform_build" remote="github" revision="11.0" />
+ <remove-project name="build" />
+ <project path="build/make" name="Xeesan/platform_build" remote="github" revision="11.0" >
+   <copyfile src="core/root.mk" dest="Makefile" />
+   <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+   <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+   <linkfile src="core" dest="build/core" />
+   <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+   <linkfile src="target" dest="build/target" />
+   <linkfile src="tools" dest="build/tools" />
+ </project>
+ <project path="build/soong" name="syberia-project/platform_build_soong" remote="github" revision="11.0" >
+   <linkfile src="root.bp" dest="Android.bp" />
+   <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+ </project>
  
 </manifest>
