@@ -3,7 +3,7 @@
 
  <!-- Trees -->
  <project path="device/xiaomi/beryllium" name="Xeesan/null" remote="github" revision="ten" />
- <project path="device/xiaomi/sdm845-common" name="Xeesan/device_xiaomi_sdm845-common-syb" remote="github" revision="ten" />
+ <project path="device/xiaomi/sdm845-common" name="Xeesan/device_xiaomi_sdm845-common_ba" remote="github" revision="ten" />
  <project path="vendor/xiaomi" name="Xeesan/vendor_xiaomi_beryllium" remote="github" revision="ten" />
  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-17.1" />
  <project path="hardware/qcom/display-caf/sdm845" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-17.1-caf-sdm845" />
