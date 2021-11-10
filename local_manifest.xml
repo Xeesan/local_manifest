@@ -17,6 +17,12 @@
  <project path="kernel/xiaomi/sdm845" name="PainKiller3/kernel_xiaomi_sdm845" remote="github" revision="ten" />
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
  <remove-project name="platform_build" />
+<remove-project name="platform/hardware/google/apf" />
+<remove-project name="platform/hardware/google/av" />
+<remove-project name="platform/hardware/google/easel" />
+<remove-project name="platform/hardware/google/interfaces" />
+<remove-project name="platform/hardware/google/pixel" />
+<remove-project name="platform/hardware/google/pixel-sepolicy" />
   <project path="build/make" name="Xeesan/platform_build-1" remote="github" revision="10.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
