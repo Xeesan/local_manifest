@@ -17,7 +17,7 @@
  <project path="hardware/qcom/display-caf/sdm845" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-17.1-caf-sdm845" />
  <project path="hardware/qcom/audio-caf/sdm845" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-17.1-caf-sdm845" />
  <project path="hardware/qcom/media-caf/sdm845" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-17.1-caf-sdm845" />
- <project path="kernel/xiaomi/sdm845" name="Xeesan/kernel_xiaomi_sdm845" remote="github" revision="backup" />
+ <project path="kernel/xiaomi/sdm845" name="PainKiller3/kernel_xiaomi_sdm845" remote="github" revision="ten" />
  <remove-project name="platform_build" />
  <remove-project name="platform_build" />
 <remove-project name="platform/hardware/google/apf" />
