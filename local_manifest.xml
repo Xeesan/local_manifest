@@ -6,6 +6,9 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-10.0.0_r41"/>
 
+  <remote  name="dragon"
+           fetch="https://github.com/kdrag0n" />
+
  <!-- Trees -->
  <project path="device/xiaomi/beryllium" name="Xeesan/null" remote="github" revision="ten" />
  <project path="device/xiaomi/sdm845-common" name="Xeesan/common_rr" remote="github" revision="syb" />
@@ -15,6 +18,7 @@
  <project path="hardware/qcom/audio-caf/sdm845" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-17.1-caf-sdm845" />
  <project path="hardware/qcom/media-caf/sdm845" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-17.1-caf-sdm845" />
  <project path="kernel/xiaomi/sdm845" name="Xeesan/kernel_xiaomi_sdm845" remote="github" revision="backup" />
+ <remove-project name="platform_build" />
  <remove-project name="platform_build" />
 <remove-project name="platform/hardware/google/apf" />
 <remove-project name="platform/hardware/google/av" />
@@ -37,6 +41,7 @@
   <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk" remote="zisan" />
   <project path="hardware/google/pixel" name="platform/hardware/google/pixel" groups="generic_fs,pixel" remote="zisan" />
   <project path="hardware/google/pixel-sepolicy" name="platform/hardware/google/pixel-sepolicy" groups="generic_fs,pixel" remote="zisan" />
- 
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="dragon" revision="master" clone-depth="1" />
+
 </manifest>
  
