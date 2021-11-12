@@ -19,12 +19,6 @@
  <project path="hardware/qcom/media-caf/sdm845" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-17.1-caf-sdm845" />
  <project path="kernel/xiaomi/sdm845" name="PainKiller3/kernel_xiaomi_sdm845" remote="github" revision="ten" />
  <remove-project name="platform_build" />
-<remove-project name="platform/hardware/google/apf" />
-<remove-project name="platform/hardware/google/av" />
-<remove-project name="platform/hardware/google/easel" />
-<remove-project name="platform/hardware/google/interfaces" />
-<remove-project name="platform/hardware/google/pixel" />
-<remove-project name="platform/hardware/google/pixel-sepolicy" />
   <project path="build/make" name="Xeesan/platform_build-1" remote="github" revision="10.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -33,13 +27,6 @@
     <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
-  </project>
-  <project path="hardware/google/apf" name="platform/hardware/google/apf" groups="pdk" remote="zisan" />
-  <project path="hardware/google/av" name="platform/hardware/google/av" groups="pdk" remote="zisan" />
-  <project path="hardware/google/easel" name="platform/hardware/google/easel" groups="pdk,easel" remote="zisan" />
-  <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk" remote="zisan" />
-  <project path="hardware/google/pixel" name="platform/hardware/google/pixel" groups="generic_fs,pixel" remote="zisan" />
-  <project path="hardware/google/pixel-sepolicy" name="platform/hardware/google/pixel-sepolicy" groups="generic_fs,pixel" remote="zisan" />
 
 </manifest>
  
