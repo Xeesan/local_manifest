@@ -40,7 +40,6 @@
   <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk" remote="zisan" />
   <project path="hardware/google/pixel" name="platform/hardware/google/pixel" groups="generic_fs,pixel" remote="zisan" />
   <project path="hardware/google/pixel-sepolicy" name="platform/hardware/google/pixel-sepolicy" groups="generic_fs,pixel" remote="zisan" />
-  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="dragon" revision="master" clone-depth="1" />
 
 </manifest>
  
