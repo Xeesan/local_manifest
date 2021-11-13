@@ -10,6 +10,5 @@
  <project path="kernel/xiaomi/sdm845" name="DevMashru/android_kernel_xiaomi_sdm845" remote="github" revision="eleven" />
  <remove-project name="android_vendor_pixeldust" />
  <project path="vendor/pixeldust" name="Xeesan/android_vendor_pixeldust" remote="github" revision="quiche" />
- </project>
  
 </manifest>
