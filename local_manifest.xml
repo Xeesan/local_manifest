@@ -2,7 +2,7 @@
 <manifest>
 
  <!-- Trees -->
- <project path="device/xiaomi/beryllium" name="PixelDust-Devices/android_device_xiaomi_beryllium" remote="github" revision="quiche" />
+ <project path="device/xiaomi/beryllium" name="Xeesan/platform_device_xiaomi_beryllium" remote="github" revision="quiche" />
  <project path="device/xiaomi/sdm845-common" name="PixelDust-Devices/android_device_xiaomi_sdm845-common" remote="github" revision="quiche" />
  <project path="vendor/xiaomi/beryllium" name="PixelDust-Devices/vendor_xiaomi_beryllium" remote="github" revision="quiche" />
  <project path="vendor/xiaomi/sdm845-common" name="PixelDust-Devices/vendor_xiaomi_sdm845-common" remote="github" revision="quiche" />
