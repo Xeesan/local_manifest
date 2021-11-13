@@ -9,7 +9,7 @@
  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-17.1" />
  <project path="kernel/xiaomi/sdm845" name="DevMashru/android_kernel_xiaomi_sdm845" remote="github" revision="eleven" />
  <remove-project name="android_vendor_pixeldust" />
-  <project path="vendor/pixeldust" name="Xeesan/android_vendor_pixeldust" remote="github" revision="quiche" />
+ <project path="vendor/pixeldust" name="Xeesan/android_vendor_pixeldust" remote="github" revision="quiche" />
  </project>
  
 </manifest>
