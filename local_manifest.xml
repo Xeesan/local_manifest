@@ -12,7 +12,7 @@
  <remove-project name="android_hardware_ril" />
  <remove-project name="android_hardware_qcom_wlan" />
  <project path="vendor/pixeldust" name="Xeesan/android_vendor_pixeldust" remote="github" revision="quiche" />
- <project path="hardware/qcom/wlan" name="ResurrectionRemix/android_hardware_qcom_wlan" remote="github" revision="Q" />
+ <project path="hardware/qcom/wlan" name="ResurrectionRemix/android_hardware_qcom_wlan" remote="github" revision="ten" />
   <project path="hardware/ril" name="LineageOS/android_hardware_ril" remote="github" revision="lineage-17.1" />
  
 </manifest>
