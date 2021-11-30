@@ -1,33 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="zisan"
-           fetch="https://android.googlesource.com"
-           review="android-review.googlesource.com"
-           revision="refs/tags/android-10.0.0_r41"/>
-
-  <remote  name="dragon"
-           fetch="https://github.com/kdrag0n" />
-
  <!-- Trees -->
- <project path="device/xiaomi/beryllium" name="Xeesan/null" remote="github" revision="ten" />
+ <project path="device/xiaomi/beryllium" name="Xeesan/device_xiaomi_beryllium" remote="github" revision="10-test" />
  <project path="device/xiaomi/sdm845-common" name="Xeesan/common_rr" remote="github" revision="syb" />
  <project path="vendor/xiaomi" name="Xeesan/vendor_xiaomi_beryllium" remote="github" revision="ten" />
  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-17.1" />
  <project path="hardware/qcom/display-caf/sdm845" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-17.1-caf-sdm845" />
  <project path="hardware/qcom/audio-caf/sdm845" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-17.1-caf-sdm845" />
  <project path="hardware/qcom/media-caf/sdm845" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-17.1-caf-sdm845" />
- <project path="kernel/xiaomi/sdm845" name="PainKiller3/kernel_xiaomi_sdm845" remote="github" revision="ten" />
- <remove-project name="platform_build" />
-  <project path="build/make" name="Xeesan/platform_build-1" remote="github" revision="10.0" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-    <linkfile src="core" dest="build/core" />
-    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-    <linkfile src="target" dest="build/target" />
-    <linkfile src="tools" dest="build/tools" />
-    </project>
+ <project path="kernel/xiaomi/sdm845" name="kernel_xiaomi_sdm845" remote="github" revision="backup" />
 
 </manifest>
  
