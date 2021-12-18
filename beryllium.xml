@@ -2,16 +2,15 @@
 <manifest>
 
     <!-- Device tree -->
-    <project name="FraEgg/android_device_oneplus_fajita" path="device/oneplus/fajita" remote="github" revision="11.0-luis-cr-tj" />
-    <project name="FraEgg/android_device_oneplus_sdm845-common" path="device/oneplus/sdm845-common" remote="github" revision="11.0-luis-cr-tj" />
-    <project name="FraEgg/android_device_oneplus_common" path="device/oneplus/common" remote="github" revision="11.0-luis-cr" />
+    <project name="crdroidandroid/android_device_xiaomi_beryllium" path="device/xiaomi/beryllium" remote="github" revision="11.0" />
+    <project name="crdroidandroid/android_device_xiaomi_sdm845-common" path="device/xiaomi/sdm845-common" remote="github" revision="11.0 " />
 	
     <!-- Kernel -->
-    <project name="FraEgg/android_kernel_oneplus_sdm845" path="kernel/oneplus/sdm845" remote="github" revision="11.0-luis-cr-tj" />
+    <project name="LowTension/BAALAM_android_kernel_xiaomi_sdm845" path="kernel/xiaomi/sdm845" remote="github" revision="lineage-19.0" />
 
     <!-- Vendor -->
-    <project name="LineageOS/android_hardware_oneplus" path="hardware/oneplus" remote="github" revision="lineage-18.1" />
-    <project name="crdroidandroid/proprietary_vendor_oneplus" path="vendor/oneplus" remote="crdroid-gitlab" revision="11.0-sdm845-common" />
+    <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-18.1" />
+    <project name="crdroidandroid/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="11.0-beryllium" />
 		
     <!-- Temp fixes -->
     <project name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r428724" path="prebuilts/clang/host/linux-x86/clang-r428724" remote="crdroid-gitlab" />
@@ -33,11 +32,5 @@
 
   <remove-project name="crdroidandroid/android_packages_apps_crDroidSettings" />
   <project path="packages/apps/crDroidSettings" name="FraEgg/android_packages_apps_crDroidSettings" revision="11.0-luis-cr" />
-
-  <remove-project name="crdroidandroid/android_packages_apps_Updater" />
-  <project path="packages/apps/Updater" name="FraEgg/android_packages_apps_Updater_cr" revision="11.0-luis-cr" />
-
-  <remove-project name="crdroidandroid/android_vendor_crDroidOTA" />
-  <project path="vendor/crDroidOTA" name="FraEgg/android_vendor_crDroidOTA" revision="11.0-luis-cr" />
 
 </manifest>
