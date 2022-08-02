@@ -9,5 +9,5 @@
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="dakkshesh07/neutron-clang" remote="gitlab" revision="Neutron-16" />
  <remove-project name="crdroidandroid/android_system_sepolicy" />
  <project path="system/sepolicy" name="Xeesan/android_system_sepolicy" remote="github" revision="12.1" />
- <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-18.1" />
+ <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-19.1" />
 </manifest>
