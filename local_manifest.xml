@@ -2,10 +2,10 @@
 <manifest>
 
  <!-- Trees -->
- <project path="device/xiaomi/beryllium" name="Xeesan/device_xiaomi_beryllium" remote="github" revision="rice-nse" />
- <project path="device/xiaomi/sdm845-common" name="Xeesan/device_xiaomi_sdm845-common" remote="github" revision="rice-nse" />
+ <project path="device/xiaomi/beryllium" name="Xeesan/device_xiaomi_beryllium" remote="github" revision="rice" />
+ <project path="device/xiaomi/sdm845-common" name="Xeesan/device_xiaomi_sdm845-common" remote="github" revision="rice" />
  <project path="vendor/xiaomi" name="Xeesan/vendor_xiaomi" remote="github" revision="12.1-wip" />
- <project path="kernel/xiaomi/sdm845" name="Xeesan/kernel_xiaomi_sdm845" remote="github" revision="crd-nse" />
+ <project path="kernel/xiaomi/sdm845" name="Xeesan/kernel_xiaomi_sdm845" remote="github" revision="crd" />
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" />
  <remove-project name="crdroidandroid/android_system_sepolicy" />
  <project path="system/sepolicy" name="Xeesan/android_system_sepolicy" remote="github" revision="12.1" />
