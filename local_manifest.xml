@@ -8,6 +8,8 @@
  <project path="kernel/xiaomi/sdm845" name="Xeesan/kernel_xiaomi_sdm845" remote="github" revision="crd" />
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" />
  <remove-project name="crdroidandroid/android_system_sepolicy" />
+ <remove-project name="LineageOS/android_hardware_google_pixel-sepolicy" />
+ <project path="hardware/google/pixel-sepolicy" name="Xeesan/android_hardware_google_pixel-sepolicy" remote="github" revision="los-19.1" />
  <project path="system/sepolicy" name="Xeesan/android_system_sepolicy" remote="github" revision="12.1" />
  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-19.1" />
 </manifest>
