@@ -3,8 +3,6 @@
 	
     <remote name="gitlab" fetch="https://gitlab.com" />
     <!-- Device tree -->
-    <project name="Xeesan/device_xiaomi_alioth" path="device/xiaomi/alioth" remote="github" revision="crd" />
-    <project name="Xeesan/device_xiaomi_sm8250-common" path="device/xiaomi/sm8250-common" remote="github" revision="crd" />
     <project name="FraEgg/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-18.1" />
     <project name="Xeesan/vendor_xiaomi" path="vendor/xiaomi" remote="gitlab" revision="11" />
     <!-- Kernel -->
