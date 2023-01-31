@@ -23,11 +23,5 @@
   <remove-project name="crdroidandroid/android_packages_apps_crDroidSettings" />
   <project path="packages/apps/crDroidSettings" name="FraEgg/android_packages_apps_crDroidSettings" revision="11.0-luis-cr" />
 
-  <remove-project name="crdroidandroid/android_packages_apps_Updater" />
-  <project path="packages/apps/Updater" name="FraEgg/android_packages_apps_Updater_cr" revision="11.0-luis-cr" />
-
-  <remove-project name="crdroidandroid/android_vendor_crDroidOTA" />
-  <project path="vendor/crDroidOTA" name="FraEgg/android_vendor_crDroidOTA" revision="11.0-luis-cr" />
-
 
 </manifest>
