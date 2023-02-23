@@ -20,10 +20,10 @@
    <project path="hardware/qcom-caf/sm8250/media" name="VoidUI-Tiramisu/hardware_qcom-caf_sm8250_media" remote="github" revision="aosp-13" />
    <project path="hardware/qcom-caf/sm8250/display" name="VoidUI-Tiramisu/hardware_qcom-caf_sm8250_display" remote="github" revision="aosp-13" />
    <project path="external/ant-wireless/antradio-library" name="drkphnx/external_ant-wireless_antradio-library.git" remote="github" revision="snowcone" />
-   <project path="frameworks/base" name="Xeesan/platform_frameworks_base" remote="github" revision="13.0" />
+   <project path="frameworks/base" name="Xeesan/platform_frameworks_base" remote="gitlab" revision="13.0" />
    <project path="external/faceunlock" name="VoidUI/external_faceunlock" remote="gitlab" revision="aosp-13" />
    <project path="hardware/xiaomi" name="VoidUI-Tiramisu/hardware_xiaomi" remote="github" revision="aosp-13" />
    <project path="packages/resources/devicesettings" name="VoidUI-Tiramisu/packages_resources_devicesettings" remote="github" revision="aosp-13" />
-   <project path="vendor/xiaomi/alioth-miuicamera" name="Xeesan/android_vendor_xiaomi_alioth-miuicamera" remote="gitlab" revision="aosp-13" />
+   <project path="vendor/xiaomi/alioth-miuicamera" name="Xeesan/android_vendor_xiaomi_alioth-miuicamera" remote="gitlab" revision="stable" />
 
 </manifest>
