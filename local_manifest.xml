@@ -3,15 +3,14 @@
  
     <!-- Trees -->
 
-  <project path="device/xiaomi/alioth" name="Xeesan/android_device_xiaomi_alioth" remote="github" revision="syb" />
-  <project path="device/xiaomi/sm8250-common" name="Xeesan/android_device_xiaomi_sm8250-common" remote="github" revision="syb" />
+  <project path="device/xiaomi/alioth" name="Xeesan/android_device_xiaomi_alioth" remote="github" revision="aosp-13" />
+  <project path="device/xiaomi/sm8250-common" name="Xeesan/android_device_xiaomi_sm8250-common" remote="github" revision="aosp-13" />
   <project path="vendor/xiaomi/alioth" name="VoidUI-Devices/vendor_xiaomi_sm8250-common" remote="github" revision="aosp-13" />
   <project path="vendor/xiaomi/sm8250-common" name="VoidUI-Devices/vendor_xiaomi_sm8250-common" remote="github" revision="aosp-13" />
-  <project path="kernel/xiaomi/sm8250" name="EmanuelCN/kernel_xiaomi_sm8250" remote="github" revision="staging" />
+  <project path="kernel/xiaomi/sm8250" name="VoidUI-Devices/kernel_xiaomi_sm8250" remote="github" revision="aosp-13" />
 
     <!-- Bonked Repos -->
   <remove-project name="platform_external_faceunlock" />
-  <remove-project name="platform_frameworks_base" />
   <remove-project name="platform_vendor_qcom_opensource_interfaces" />
   <remove-project name="android_packages_resources_devicesettings" />
 
@@ -20,7 +19,6 @@
    <project path="hardware/qcom-caf/sm8250/media" name="VoidUI-Tiramisu/hardware_qcom-caf_sm8250_media" remote="github" revision="aosp-13" />
    <project path="hardware/qcom-caf/sm8250/display" name="VoidUI-Tiramisu/hardware_qcom-caf_sm8250_display" remote="github" revision="aosp-13" />
    <project path="external/ant-wireless/antradio-library" name="drkphnx/external_ant-wireless_antradio-library.git" remote="github" revision="snowcone" />
-   <project path="frameworks/base" name="Xeesan/platform_frameworks_base" remote="gitlab" revision="13.0" />
    <project path="external/faceunlock" name="VoidUI/external_faceunlock" remote="gitlab" revision="aosp-13" />
    <project path="hardware/xiaomi" name="VoidUI-Tiramisu/hardware_xiaomi" remote="github" revision="aosp-13" />
    <project path="packages/resources/devicesettings" name="VoidUI-Tiramisu/packages_resources_devicesettings" remote="github" revision="aosp-13" />
