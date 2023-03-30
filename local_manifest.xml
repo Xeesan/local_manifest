@@ -15,6 +15,7 @@
   <remove-project name="LineageOS/android_hardware_qcom_media" />
   <remove-project name="voltageos/external_faceunlock" />
   <remove-project name="hardware_xiaomi" />
+  <remove-project name="frameworks_opt_telephony" />
   <remove-project name="frameworks_base" />
   <remove-project name="vendor_voltage" />
   <remove-project name="LineageOS/android_packages_resources_devicesettings" />
@@ -37,4 +38,5 @@
    <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
    <project path="vendor/qcom/opensource/power" name="PixelExperience/vendor_qcom_opensource_power" remote="github" revision="thirteen" />
    <project path="vendor/qcom/opensource/interfaces" name="Ghosuto/vendor_qcom_opensource_interfaces" remote="github" revision="aosp-13" />
+   <project path="frameworks/opt/telephony" name="Xeesan/frameworks_opt_telephony" remote="github" revision="13" />
 </manifest>
