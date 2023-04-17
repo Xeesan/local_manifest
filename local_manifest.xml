@@ -20,7 +20,6 @@
   <remove-project name="android_vendor_qcom_opensource_interfaces" />
   <remove-project name="android_vendor_qcom_opensource_power" />
   <remove-project name="android_hardware_qcom_bootctrl" />
-  <remove-project name="android_vendor_qcom_opensource_power" />
 
     <!-- Required Repos -->
    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
