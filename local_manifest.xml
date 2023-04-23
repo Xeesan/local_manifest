@@ -20,6 +20,7 @@
   <remove-project name="android_vendor_qcom_opensource_interfaces" />
   <remove-project name="android_vendor_qcom_opensource_power" />
   <remove-project name="android_hardware_qcom_bootctrl" />
+  <remove-project name="frameworks_native" />
 
     <!-- Required Repos -->
    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
@@ -27,6 +28,7 @@
    <project path="hardware/qcom-caf/sm8250/media" name="Ghosuto/hardware_qcom-caf_sm8250_media" remote="github" revision="aosp-13" />
    <project path="hardware/qcom-caf/sm8250/display" name="Ghosuto/hardware_qcom-caf_sm8250_display" remote="github" revision="aosp-13" />
    <project path="frameworks/base" name="Xeesan/platform_frameworks_base" remote="gitlab" revision="tirimbino" />
+   <project path="frameworks/native" name="Xeesan/frameworks_native" remote="gitlab" revision="tirimbino" />
    <project path="external/faceunlock" name="VoidUI/external_faceunlock" remote="gitlab" revision="aosp-13" />
    <project path="hardware/xiaomi" name="Ghosuto/hardware_xiaomi" remote="github" revision="aosp-13" />
    <project path="packages/apps/Settings" name="Xeesan/packages_apps_Settings" remote="gitlab" revision="tirimbino" />
