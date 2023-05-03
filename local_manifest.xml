@@ -3,10 +3,10 @@
  
     <!-- Trees -->
 
-  <project path="device/xiaomi/alioth" name="Xeesan/android_device_xiaomi_alioth" remote="github" revision="13.0" />
-  <project path="device/xiaomi/sm8250-common" name="Xeesan/android_device_xiaomi_sm8250-common" remote="github" revision="13.0" />
+  <project path="device/xiaomi/alioth" name="Xeesan/android_device_xiaomi_alioth" remote="github" revision="vos" />
+  <project path="device/xiaomi/sm8250-common" name="Xeesan/android_device_xiaomi_sm8250-common" remote="github" revision="vos" />
   <project path="vendor/xiaomi/alioth" name="Ghosuto/android_vendor_xiaomi_alioth" remote="github" revision="13.0" />
-  <project path="vendor/xiaomi/sm8250-common" name="Ghosuto/android_vendor_xiaomi_sm8250-common" remote="github" revision="13.0" />
+  <project path="vendor/xiaomi/sm8250-common" name="Xeesan/vendor_xiaomi_sm8250-common" remote="github" revision="vos" />
   <project path="kernel/xiaomi/alioth" name="EmanuelCN/kernel_xiaomi_sm8250" remote="github" revision="staging" />
 
     <!-- Bonked Repos -->
@@ -15,12 +15,12 @@
   <remove-project name="LineageOS/android_hardware_qcom_media" />
   <remove-project name="voltageos/external_faceunlock" />
   <remove-project name="hardware_xiaomi" />
-  <remove-project name="frameworks_opt_telephony" />
   <remove-project name="frameworks_base" />
-  <remove-project name="vendor_voltage" />
   <remove-project name="LineageOS/android_packages_resources_devicesettings" />
   <remove-project name="LineageOS/android_vendor_qcom_opensource_interfaces" />
   <remove-project name="vendor_qcom_opensource_power" />
+  <remove-project name="frameworks_native" />
+  <remove-project name="LineageOS/android_hardware_qcom_bootctrl" />
 
     <!-- Required Repos -->
    <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="github" revision="arrow-11.0" />
@@ -32,11 +32,12 @@
    <project path="frameworks/base" name="Xeesan/platform_frameworks_base" remote="gitlab" revision="13" />
    <project path="external/faceunlock" name="VoidUI/external_faceunlock" remote="gitlab" revision="aosp-13" />
    <project path="hardware/xiaomi" name="Ghosuto/hardware_xiaomi" remote="github" revision="aosp-13" />
-   <project path="vendor/voltage" name="Xeesan/vendor_voltage" remote="gitlab" revision="13" />
    <project path="packages/resources/devicesettings" name="VoidUI-Tiramisu/packages_resources_devicesettings" remote="github" revision="aosp-13" />
    <project path="vendor/xiaomi/alioth-miuicamera" name="Xeesan/android_vendor_xiaomi_alioth-miuicamera" remote="gitlab" revision="stable" />
    <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
    <project path="vendor/qcom/opensource/power" name="PixelExperience/vendor_qcom_opensource_power" remote="github" revision="thirteen" />
    <project path="vendor/qcom/opensource/interfaces" name="Ghosuto/vendor_qcom_opensource_interfaces" remote="github" revision="aosp-13" />
-   <project path="frameworks/opt/telephony" name="Xeesan/frameworks_opt_telephony" remote="github" revision="13" />
+   <project path="frameworks/native" name="Xeesan/frameworks_native" remote="gitlab" revision="13" />
+   <project path="hardware/qcom-caf/bootctrl" name="drkphnx/hardware_qcom-caf_bootctrl" remote="github" revision="aosp-13" />
+   <project path="external/ant-wireless/antradio-library" name="drkphnx/external_ant-wireless_antradio-library" remote="github" revision="snowcone" />
 </manifest>
