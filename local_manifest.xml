@@ -21,7 +21,8 @@
   <remove-project name="LineageOS/android_vendor_qcom_opensource_power" />
   <remove-project name="frameworks_native" />
   <remove-project name="LineageOS/android_hardware_qcom_bootctrl" />
-
+  <remove-project name="LineageOS/android_external_ant-wireless_antradio-library" />
+ 
     <!-- Required Repos -->
    <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="github" revision="arrow-11.0" />
    <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="arrowos-project/android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="gitlab" revision="master" />
